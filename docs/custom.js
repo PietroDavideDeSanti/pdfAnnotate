@@ -1,3 +1,7 @@
+function moveToElemByPage(page){
+    window.location.href = "#page" + page;
+}
+
 function highlightPage(val) {
 
     var current_page = document.getElementById('current_page').innerHTML;
